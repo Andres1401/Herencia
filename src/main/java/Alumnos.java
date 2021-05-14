@@ -25,4 +25,12 @@ public class Alumnos {
         System.out.println("Estoy en tal x grado");
     }
     
+    public void presentacion(){
+        System.out.println("Hola soy un alumno");
+    }
+    
+    public String toString()
+    {
+        return "sexo: "+sexo+" edad: "+edad+" nombre: "+nombre;
+    }
 }
